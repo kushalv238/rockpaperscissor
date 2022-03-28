@@ -1,0 +1,161 @@
+:root {
+    --clr-primary: #0700b8;
+    --clr-secondary: #00ff88;
+}
+
+*,
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(0deg, var(--clr-primary) 0%, var(--clr-secondary) 100%);
+
+    color: rgb(36, 33, 33);
+
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    width: 30rem;
+
+    height: auto;
+    padding: 3rem 1.5rem 0rem 1.5rem;
+    background-color: white;
+
+    border-radius: 8px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.45);
+}
+
+.details {
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-evenly;
+
+    text-align: center;
+    
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    margin-bottom: -0rem;
+    
+    text-transform: uppercase;
+}
+
+.details .title {
+    display: flex;
+    justify-content: space-evenly;
+
+    text-align: center;
+    
+    font-size: 1.8rem;
+    font-weight: 700;
+    
+    padding-bottom: 1.5rem;
+    
+    text-transform: uppercase;
+}
+
+.details .scores {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.details .scores span{
+    font-weight: 800;
+}
+
+.weapons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.weapons button {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+    background-color: var(--clr-primary);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.weapons button:hover {
+    background-color: #050181;
+    transform: scale(1.1);
+}
+
+.result {
+    text-align: center;
+    margin-top: 2.2rem;
+
+    font-size: large;
+    font-weight: 500;
+}
+
+.result p {
+    line-height: 0.9rem;
+}
+
+#result {
+	-webkit-text-stroke: .5px black;
+}
+
+.display {
+    text-transform: uppercase;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    
+    font-size: 1.2rem;
+
+    margin: 3rem 0rem;
+    
+    text-transform: uppercase;
+}
+
+.option button {
+    border-radius: 5px;
+    margin: 0px 10px;
+    padding: 5px 20px;
+
+    background-color: var(--clr-primary);
+    color: white;
+}
+
+.option button:hover {
+    background-color: #050181;
+}
+
+.final{
+    text-align: center;
+    margin: 2.2rem 0rem;
+
+    font-size: large;
+    font-weight: 500;
+
+    line-height: 0.7;
+}
+
+.createrDetails {
+    display: flex;
+    justify-content: center;
+}
