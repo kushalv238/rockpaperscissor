@@ -110,11 +110,11 @@ body {
 }
 
 .result p {
-    line-height: 0.9rem;
+    line-height: 2rem;
 }
 
 #result {
-	-webkit-text-stroke: .5px black;
+	-webkit-text-stroke: 0.5px black;
 }
 
 .display {
@@ -137,7 +137,7 @@ body {
 .option button {
     border-radius: 5px;
     margin: 0px 10px;
-    padding: 5px 20px;
+    padding: 10px 25px;
 
     background-color: var(--clr-primary);
     color: white;
@@ -147,14 +147,14 @@ body {
     background-color: #050181;
 }
 
-.final{
+#final{
     text-align: center;
     margin: 2.2rem 0rem;
 
     font-size: large;
     font-weight: 500;
 
-    line-height: 0.7;
+    line-height: 1.7;
 }
 
 .createrDetails {

@@ -37,9 +37,9 @@
             </div>
 
             <div class="weapons">
-                <button onclick="game('0')" title="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
-                <button onclick="game('1')" title="paper"><i class="fa-solid fa-hand"></i></button>
-                <button onclick="game('2')" title="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+                <button onclick="game(0)" title="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+                <button onclick="game(1)" title="paper"><i class="fa-solid fa-hand"></i></button>
+                <button onclick="game(2)" title="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
             </div>
             
             <div class="result">
@@ -54,8 +54,8 @@
                 <button onclick="finalRes()" class="endButtons" title="finish">Final score</button>
             </div>
 
-            <div class="final">
-                <p><span id="userF"></span> <span id="compF"></span></p>
+            <div id="final">
+                <p>Your final Score: <span id="userF"></span> | My final Score: <span id="compF"></span></p>
                 <p id="resF"></p>
             </div>
 
