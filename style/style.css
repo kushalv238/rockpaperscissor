@@ -13,6 +13,8 @@
 }
 
 body {
+    font-family: 'Nunito', sans-serif;
+
     background: linear-gradient(0deg, var(--clr-primary) 0%, var(--clr-secondary) 100%);
 
     color: rgb(36, 33, 33);
