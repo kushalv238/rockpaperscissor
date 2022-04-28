@@ -36,7 +36,7 @@ function getStatus(userCh_, compCh_) {
         return("It's a draw!");
     }
     else {
-        location.reload();
+        reload();
     }
 }
 
